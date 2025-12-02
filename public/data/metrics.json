@@ -1,0 +1,145 @@
+{
+    "year": 2025,
+    "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+    "production": [1260000, 995000, 950003, 620000, 298132, 0, 239000, 800000, 912720, 950825],
+    "batchesTotal": 306,
+    "cartridgesTotal": 8951683,
+    "avgMonthly": 995742,
+    "quarterly": {
+        "Q1": { "value": 3201003, "percent": 35.8 },
+        "Q2": { "value": 1868135, "percent": 20.9 },
+        "Q3": { "value": 1951720, "percent": 21.8 },
+        "Q4": { "value": 950825, "percent": 10.6 }
+    },
+    "quality": { "successRate": 0.9998, "approvals": 0.993 },
+    "incidents": { "total": 41, "minor": 18, "major": 15, "critical": 8, "peakMonth": "Sep", "peakValue": 8 },
+    "rejectionKpi": { "currentRate": 1.5, "goalRate": 1.0, "targetRate": 2.0 },
+    "improvementsSummary": { "implemented": 7, "pending": 1 },
+    "rejections": {
+        "total": 46567,
+        "types": [
+            { "name": "Improper Weld", "count": 23386, "percent": 50.2 },
+            { "name": "QC Torque Test", "count": 8330, "percent": 17.9 },
+            { "name": "Dust Weld", "count": 7012, "percent": 15.0 },
+            { "name": "Weak Weld", "count": 3323, "percent": 7.1 },
+            { "name": "Air Bubbles", "count": 1702, "percent": 3.7 },
+            { "name": "Damage", "count": 1216, "percent": 2.6 },
+            { "name": "Narrow Channel", "count": 621, "percent": 1.3 },
+            { "name": "Child Parts Welded", "count": 460, "percent": 1.0 },
+            { "name": "Hair Welded", "count": 293, "percent": 0.6 },
+            { "name": "Dump Rejections", "count": 93, "percent": 0.2 },
+            { "name": "Alignment Issue", "count": 82, "percent": 0.2 },
+            { "name": "Child Part Missing", "count": 30, "percent": 0.1 },
+            { "name": "Oil", "count": 14, "percent": 0.0 },
+            { "name": "Bulging", "count": 5, "percent": 0.0 }
+        ]
+    },
+    "rootCauses": [
+        { "category": "Welding Related", "count": 34721, "percentage": 72 },
+        { "category": "Testing Issues", "count": 10000, "percentage": 21 },
+        { "category": "Physical Damage", "count": 1838, "percentage": 4 },
+        { "category": "Other Issues", "count": 1678, "percentage": 3 }
+    ],
+    "correctiveActions": [
+        { "action": "Enhanced SOP Training", "status": "completed" },
+        { "action": "Calibration Schedule Review", "status": "completed" },
+        { "action": "Process Automation Initiative", "status": "in-progress" }
+    ],
+    "team": {
+        "manager": { "initials": "HC", "name": "Hammed C.R", "role": "Asst Manager" },
+        "seniorOfficer": { "initials": "LN", "name": "L R Naidu", "role": "Sr. Officer" },
+        "supervisors": [
+            { "initials": "SK", "name": "A. Sai Kumar", "role": "Supervisor" },
+            { "initials": "PK", "name": "P.L. Sai Kaushik", "role": "Supervisor" },
+            { "initials": "US", "name": "U. Srinuvas", "role": "Supervisor" }
+        ]
+    },
+    "achievements": [
+        { "label": "Rejection Rate", "value": "1.5%", "note": "Below 2% target" },
+        { "label": "Line Verification", "value": "6,190", "note": "Only 1 rejection" },
+        { "label": "Top Reporter", "value": "L.R. Naidu", "note": "9 incidents logged" },
+        { "label": "Batch Success", "value": "99.98%", "note": "306/306 batches" }
+    ],
+    "qualityEventsMonthly": [
+        { "month": "Jul", "clearancesApproved": 670, "clearancesNotApproved": 0, "closuresApproved": 653, "closuresNotApproved": 0, "reverificationsApproved": 515, "reverificationsNotApproved": 0 },
+        { "month": "Aug", "clearancesApproved": 690, "clearancesNotApproved": 11, "closuresApproved": 673, "closuresNotApproved": 8, "reverificationsApproved": 993, "reverificationsNotApproved": 0 },
+        { "month": "Sep", "clearancesApproved": 338, "clearancesNotApproved": 6, "closuresApproved": 385, "closuresNotApproved": 6, "reverificationsApproved": 975, "reverificationsNotApproved": 0 },
+        { "month": "Oct", "clearancesApproved": 249, "clearancesNotApproved": 4, "closuresApproved": 243, "closuresNotApproved": 5, "reverificationsApproved": 883, "reverificationsNotApproved": 0 },
+        { "month": "Nov", "clearancesApproved": 517, "clearancesNotApproved": 8, "closuresApproved": 505, "closuresNotApproved": 10, "reverificationsApproved": 1055, "reverificationsNotApproved": 0 }
+    ],
+    "incidentMonthlySeverity": [
+        { "month": "Jan", "minor": 2, "major": 1, "critical": 0, "total": 3 },
+        { "month": "Feb", "minor": 4, "major": 0, "critical": 0, "total": 4 },
+        { "month": "Mar", "minor": 1, "major": 4, "critical": 2, "total": 7 },
+        { "month": "Apr", "minor": 0, "major": 0, "critical": 0, "total": 0 },
+        { "month": "May", "minor": 1, "major": 1, "critical": 0, "total": 2 },
+        { "month": "Jun", "minor": 0, "major": 0, "critical": 1, "total": 1 },
+        { "month": "Jul", "minor": 0, "major": 0, "critical": 0, "total": 0 },
+        { "month": "Aug", "minor": 2, "major": 2, "critical": 0, "total": 4 },
+        { "month": "Sep", "minor": 4, "major": 2, "critical": 2, "total": 8 },
+        { "month": "Oct", "minor": 1, "major": 3, "critical": 1, "total": 5 },
+        { "month": "Nov", "minor": 3, "major": 2, "critical": 2, "total": 7 }
+    ],
+    "reportersDistribution": [
+        { "name": "L. R. Naidu", "count": 9 },
+        { "name": "U. Srinivas", "count": 8 },
+        { "name": "P.L. Sai Kaushik", "count": 7 },
+        { "name": "A. Sai Kumar", "count": 4 },
+        { "name": "K. Varma", "count": 3 },
+        { "name": "N. Chakradhar", "count": 2 },
+        { "name": "Others", "count": 8 }
+    ],
+    "incidentRegister": [
+        { "date": "20/01/2025", "irNumber": "IR25/III/QA/003", "department": "Quality Assurance", "reporter": "K. Varma", "severity": "Minor", "description": "During line verification documents we observed incompleted document at 07:46 hours dated on 20/01/2025. Proof attached and later user department updated the documents without person present in shift and forged sign by manufacturing team (K. Ramu)" },
+        { "date": "25/01/2025", "irNumber": "IR25/III/MG/005", "department": "Manufacturing", "reporter": "P. Pavan", "severity": "Minor", "description": "While recording the data of the laser welding machine equipment ID - EC/EQID/III-00069 in the equipment logbook (Logbook ID - LOG/EC/III/308-01) is not matching with In process parameters monitoring sheet for cartridge assembly (FM/CA/III/079)" },
+        { "date": "31/01/2025", "irNumber": "IR25/III/QA/006", "department": "Quality Assurance", "reporter": "P.L. Sai Kaushik", "severity": "Minor", "description": "During the closure process of change control (CC24/MG/III/162), It was observed that equipment (ED/EQID/III-00159) had been moved from its defined location without a prior change control" },
+        { "date": "08/02/2025", "irNumber": "IR25/III/QA/007", "department": "Quality Assurance", "reporter": "N. Chakradhar", "severity": "Minor", "description": "During batch file compilation of the batches MV/LR-00120 and MV/LR-00124, it is found that 04 Nos documents are not submitted to QA for the compilation" },
+        { "date": "13/02/2025", "irNumber": "IR25/III/QA/009", "department": "Quality Assurance", "reporter": "G. Naveenkumar", "severity": "Minor", "description": "In change control CC24/MG/III/204, the maintenance plan to be requested by the user, but was not raised by the manufacturing team. Hence PPM plan for the equipment was not created within the specified proposed date of closure" },
+        { "date": "15/02/2025", "irNumber": "IR25/III/MG/012", "department": "Manufacturing", "reporter": "L. Swathi", "severity": "Minor", "description": "During the equipment verification process for validation purpose, it was found that the pysical locations of three equipmentsare do not match the SAP locations" },
+        { "date": "25/02/2025", "irNumber": "IR25/III/QA/019", "department": "Quality Assurance", "reporter": "L. R. Naidu", "severity": "Minor", "description": "During walkthrough in the Subassembly-02 area, it was observed that the fluorosilicone oil had expired on 10/01/2025" },
+        { "date": "28/02/2025", "irNumber": "IR25/III/QA/020", "department": "Quality Assurance", "reporter": "A. Sai Kumar", "severity": "Minor", "description": "During the review the logbooks it was observed that sr no was incorrectly listed in the logbooks LOG/EC/III/394-01 and LOG/EC/III/398-01 page no: 05 and page no :09 it was deviating the SOP/QA/010" },
+        { "date": "03/03/2025", "irNumber": "IR25/III/QA/023", "department": "Quality Assurance", "reporter": "K. Varma", "severity": "Major", "description": "During walkthrough it was observed that 400nos cartridge arefall down on the production floor for the batch MVDLR00049 from line-D" },
+        { "date": "05/03/2025", "irNumber": "IR25/III/QA/026", "department": "Quality Assurance", "reporter": "L. R. Naidu", "severity": "Major", "description": "During a walkthrough in the cartridge production floor it was observed that operator (SK Mabunisha and K chandrakala gowri) were operating the aluminium foil sealing machine, however there was no training on the equipment" },
+        { "date": "07/03/2025", "irNumber": "IR25/III/QA/029", "department": "Quality Assurance", "reporter": "L. R. Naidu", "severity": "Major", "description": "During a walkthrough in the cartridge production floor on 06/03/2025 it was obsereved that equipment breakdowns has occurred however the shift supervisor did not initiate breakdown notifications however maintenance departmrnt personnel were performed the activity" },
+        { "date": "13/03/2025", "irNumber": "IR25/III/QA/033", "department": "Quality Assurance", "reporter": "L. R. Naidu", "severity": "Critical", "description": "While operating the aluminium foil sealing machine the operator finger was cut proper safety precautions were not followed" },
+        { "date": "13/03/2025", "irNumber": "IR25/III/QA/036", "department": "Quality Assurance", "reporter": "L. R. Naidu", "severity": "Critical", "description": "The laser welding machines pyrometer was bypassed on the production floor, and cartridges were welded in the laser welding machine without temperature measuring" },
+        { "date": "15/03/2025", "irNumber": "IR25/III/QA/038", "department": "Quality Assurance", "reporter": "L. R. Naidu", "severity": "Major", "description": "During a line verification it was observed that no activity was performed on the alluminium foil sealing machine(Ec/EQID/III-00164) on 14/03/2025. However the respective equipment logbook and records had been updated" },
+        { "date": "19/03/2025", "irNumber": "IR25/III/QA/042", "department": "Quality Assurance", "reporter": "N. Chakradhar", "severity": "Minor", "description": "During FQC sampling for batch MV/LR-0060(SUb batch No: MVDLR00060) it was observed that the positions of sample filter in the cartridge was improper" },
+        { "date": "24/05/2025", "irNumber": "IR25/III/QA/054", "department": "Quality Assurance", "reporter": "K. Varma", "severity": "Major", "description": "During line Re-Verification it was observed that the foil sealing machine has been utilized on the line without line clearance being taken. The equipment lnumber is EC/QUID/III-00041 and the data has also been logged in the logbook" },
+        { "date": "17/05/2025", "irNumber": "IR25/III/QA/055", "department": "Quality Assurance", "reporter": "A. Sai Kumar", "severity": "Minor", "description": "During the review of log books, it was observed that the serial number was incorrectly listed in the logbook LOG/EC/III/367-03, page No. 36 of 50. It was Deviating from the SOP/QA/010" },
+        { "date": "30/06/2025", "irNumber": "IR25/III/QA/058", "department": "Quality Assurance", "reporter": "P.L. Sai Kaushik", "severity": "Critical", "description": "On 30/06/2025, during B shift at the SMD Rework station in the laser cartridge production area, it was observed that equipment (EC/EQID/III-00635) has been turned ON and left for a long time. Due to this machine was overheated, causing nearby Logbook (LOG/CA/III/341-01) got burned and smoke was detected. The Equipment belongs to line D, but there is no line clearance was taken to use the machine" },
+        { "date": "08/08/2025", "irNumber": "IR25/III/MG/059", "department": "Manufacturing", "reporter": "A. Madhuri", "severity": "Minor", "description": "During Batch Closure for batch MVDL000161 (lot-3), while calculating the left over material for buffer caps we found that leftover quantity was not matched with the line clearance document" },
+        { "date": "16/08/2025", "irNumber": "IR25/III/QA/060", "department": "Quality Assurance", "reporter": "L. R. Naidu", "severity": "Major", "description": "During line verification, it has been observed that activities were being performed in line-D (Dump insertion to Annealing) without line verification (MVDLR00105)" },
+        { "date": "21/08/2025", "irNumber": "IR25/III/QA/061", "department": "Quality Assurance", "reporter": "L. R. Naidu", "severity": "Minor", "description": "During the walkthrough in the intermediate stores, it was observed that laser cartridge front and back plate Rib NC materails were received (trays-20Nos) without QC-approved labels on the trays" },
+        { "date": "25/08/2025", "irNumber": "IR25/III/QA/062", "department": "Quality Assurance", "reporter": "L. R. Naidu", "severity": "Minor", "description": "During the Walkthrough on the Laser Production floor, it was observed that 10Nos cartridges without QR label were found in the dump insertion area" },
+        { "date": "09/09/2025", "irNumber": "IR25/III/QA/063", "department": "Quality Assurance", "reporter": "U. Srinivas", "severity": "Minor", "description": "During the line re-verification activity, it was observed that materials related to line-C assembled cartridge (Batch: MVCLR00114) were stored in line -A. As per SOP cross-line material storage is not prmitted" },
+        { "date": "10/09/2025", "irNumber": "IR25/III/QA/064", "department": "Quality Assurance", "reporter": "A. Sai Kumar", "severity": "Minor", "description": "During the walktrough it was observed that Isopropyl Alcohal was spilled onto the logbook (logbook ID - LOG/CA/III/355-02)" },
+        { "date": "09/09/2025", "irNumber": "IR25/III/QA/065", "department": "Quality Assurance", "reporter": "U. Srinivas", "severity": "Minor", "description": "During log book verification 15+4 days .it was observed that the multiple GDP errors were found in different log books which does not follow good documentation practices" },
+        { "date": "08/09/2025", "irNumber": "IR25/III/QA/066", "department": "Quality Assurance", "reporter": "P.L. Sai Kaushik", "severity": "Minor", "description": "During the compilation of BRC documents for batches MV/LR-0107, MV/NC-0040, MV/LR-0110, MV/L-00169 GDP errors were found. The documets were submitted without proper checking for completness, which does not follow good documentation practices" },
+        { "date": "15/09/2025", "irNumber": "IR25/III/QA/067", "department": "Quality Assurance", "reporter": "P.L. Sai Kaushik", "severity": "Major", "description": "While giving Re-verification on 15/09/2025 A-Shift for batch MVDL000173 on Line-D in matrix pallet filling to pouch packing, on the shift Reconciliation checklist (FM/CA/III/065BR, page 3 of 8) for smiley and valve fixing, the leftover quantity was recorded as 62nos cartridges. However, during verification, it was found that out of 62nos cartridges,11nos cartridges had already been processed and completed the smiley and valve fixing activity" },
+        { "date": "19/09/2025", "irNumber": "IR25/III/QA/068", "department": "Quality Assurance", "reporter": "P.L. Sai Kaushik", "severity": "Critical", "description": "During the walkthrough on Line-A, cartridges from batch MVAL000170 were found mixed with cartridges from different batches. In addition, cartridges of different moulds were observed with different QR label affixed (for S13 mould, S14 QR labels affixed)" },
+        { "date": "16/09/2025", "irNumber": "IR25/III/QA/069", "department": "Quality Assurance", "reporter": "U. Srinivas", "severity": "Major", "description": "During line re-verification in line D for batch MVDLR00111, it was observed that a cartridge without a QR label was found on the line, and dump insertion had already been completed" },
+        { "date": "23/09/2025", "irNumber": "IR25/III/QC/071", "department": "Quality control", "reporter": "G. Krishna Veni", "severity": "Critical", "description": "During the final quality control inspection of batch MVDLR00111, it was observed that out of a sampling size of 200 cartridges, 13 cartrdiges were belonged to a different batch. The cartridges were identified as from line C" },
+        { "date": "14/10/2025", "irNumber": "IR25/III/QA/072", "department": "Quality Assurance", "reporter": "U. Srinivas", "severity": "Major", "description": "During previous shift rejection verification it was observed that the QR code labels did not match with actual mould number. and it is clearly visible that the QR labels are removed and re pasted" },
+        { "date": "22/10/2025", "irNumber": "IR25/III/QA/073", "department": "Quality Assurance", "reporter": "A. Sai Kumar", "severity": "Major", "description": "On 21/10/2025 during b shift in line A there were 26 nos VI-3 rejections, BUT ONLY 6 NOS were updated in the workflow checklist and reflected in the rejection report" },
+        { "date": "28/10/2025", "irNumber": "IR25/III/QA/074", "department": "Quality Assurance", "reporter": "P.L. Sai Kaushik", "severity": "Critical", "description": "At line-A, Cartridges from batch MVANC00051 were found mixed with different QR Labels(For N11 Mould, N13 Mould QR Label was affixed)" },
+        { "date": "31/10/2025", "irNumber": "IR25/III/QA/075", "department": "Quality Assurance", "reporter": "P.L. Sai Kaushik", "severity": "Minor", "description": "During Verification of the IST, it was observed that spme Processed cartridges were found stored in the IST location" },
+        { "date": "31/10/2025", "irNumber": "IR25/III/QA/076", "department": "Quality Assurance", "reporter": "G. Naveenkumar", "severity": "Minor", "description": "As per Waste management (SOP/HR/III/007-02) SOP, whenever rejected materials are to be kept in the rejection room, the logbook (LOG/HR/III/031-01) has to be filled. Cartridges were found inside the rejection room, but the logbook was not filled" },
+        { "date": "07/11/2025", "irNumber": "IR25/III/QA/077", "department": "Quality Assurance", "reporter": "A. Sai Kumar", "severity": "Major", "description": "During the re-verification activity,it was identified that the PPM due dates for 10Nos Automatic Cartridge Test Jig had already been completed. However as per the SOP, the required PPM activities were not performed with in the scheduled time" },
+        { "date": "06/11/2025", "irNumber": "IR25/III/QA/078", "department": "Quality Assurance", "reporter": "U. Srinivas", "severity": "Major", "description": "During walkthrough in the production floor in line A it was observed that the NEXUS BOND material shelf life was completed" },
+        { "date": "17/11/2025", "irNumber": "IR25/III/QA/079", "department": "Quality Assurance", "reporter": "S. Raju", "severity": "Major", "description": "Line Reverification in Line A from matrix pallet filling to pouch packing was issued based on the shift reconciliation checklist. However, after the reverification was completed, all the cartridges were shifted into visual inspection-4 stage without performing an activity" },
+        { "date": "11/11/2025", "irNumber": "IR25/III/QA/080", "department": "Quality Assurance", "reporter": "U. Srinivas", "severity": "Minor", "description": "During line reverification in line c it was observed that 30nos of foil sealing rework quantity were recorded as accepted in the document and there was no SMD rework station in line clearance was available in the line clearance document" },
+        { "date": "18/11/2025", "irNumber": "IR25/III/QA/081", "department": "Quality Assurance", "reporter": "U. Srinivas", "severity": "Critical", "description": "During routine line verification on Line D, it was observed that the operating parameters of the Laser Welding Machine (Equipment ID: EC/EQID/III-00003) were outside the approved parameter limits specified in the validation report (VR/25/MG/EV/III/201)" },
+        { "date": "24/11/2025", "irNumber": "IR25/III/QA/082", "department": "Quality Assurance", "reporter": "U. Srinivas", "severity": "Critical", "description": "During walk through in Line D and Line E, it was observed that the parameters of the foil sealing machines (EC/EQID/III-00164, EC/EQID/III-00621 and EC/EQID/III-00426) were outside the approved parameter ranges specified in the validation report and SOP" }
+    ],
+    "processImplementationFull": [
+        { "item": "Work instructions in the production floor", "status": "implemented" },
+        { "item": "Re-Work area implemented (Line-Wise)", "status": "implemented" },
+        { "item": "Particle count testing", "status": "implemented" },
+        { "item": "The line-wise color labeling has been implemented", "status": "implemented" },
+        { "item": "In the QR pasting activity, segregation has been done to prevent cartridge mix-up", "status": "implemented" },
+        { "item": "The pictorial representation has been implemented", "status": "implemented" },
+        { "item": "Change control tracking sheet", "status": "implemented" },
+        { "item": "QR scanning software has to introduced to ensure proper line-wise identification and to eliminate cartridge/mould mix-up (Not yet introduced in system)", "status": "pending" }
+    ]
+}
